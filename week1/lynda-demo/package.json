@@ -1,0 +1,28 @@
+{
+	"name": "lynda-demo",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"dev": " nodemon js ./index.js"
+	},
+	"author": "Mohammad Hariri",
+	"license": "MIT",
+	"dependencies": {
+		"casual": "^1.6.0",
+		"express": "^4.16.4",
+		"express-graphql": "^0.8.0",
+		"graphql": "^14.3.0",
+		"graphql-tools": "^4.0.4",
+		"lodash": "^4.17.11",
+		"mongoose": "^5.5.7",
+		"sequelize": "^5.8.6",
+		"sqlite3": "^4.0.8"
+	},
+	"devDependencies": {
+		"babel-preset-env": "^1.7.0",
+		"babel-preset-stage-0": "^6.24.1",
+		"nodemon": "^1.19.0"
+	}
+}

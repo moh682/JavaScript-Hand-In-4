@@ -1,0 +1,24 @@
+{
+	"name": "graphql-test",
+	"version": "0.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node ./bin/www",
+		"dev": "DEBUG=graphql-test:* nodemon hbs,js ./bin/www"
+	},
+	"dependencies": {
+		"cookie-parser": "~1.4.3",
+		"debug": "~2.6.9",
+		"express": "~4.16.0",
+		"express-graphql": "^0.8.0",
+		"graphql": "^14.3.0",
+		"graphql-tools": "^4.0.4",
+		"hbs": "~4.0.1",
+		"http-errors": "~1.6.2",
+		"mongoose": "^5.5.7",
+		"morgan": "~1.9.0"
+	},
+	"devDependencies": {
+		"nodemon": "^1.19.0"
+	}
+}
